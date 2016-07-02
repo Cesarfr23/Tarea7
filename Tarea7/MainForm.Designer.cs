@@ -28,28 +28,28 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.textBox1 = new System.Windows.Forms.TextBox();
-            this.textBox2 = new System.Windows.Forms.TextBox();
+            this.NombreTextBox = new System.Windows.Forms.TextBox();
+            this.ClaveTextBox = new System.Windows.Forms.TextBox();
             this.NombreLabel = new System.Windows.Forms.Label();
             this.ClaveLabel = new System.Windows.Forms.Label();
             this.AgregarButton = new System.Windows.Forms.Button();
             this.EliminarButton = new System.Windows.Forms.Button();
-            this.listView1 = new System.Windows.Forms.ListView();
+            this.AgregarListView = new System.Windows.Forms.ListView();
             this.SuspendLayout();
             // 
-            // textBox1
+            // NombreTextBox
             // 
-            this.textBox1.Location = new System.Drawing.Point(129, 130);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(147, 20);
-            this.textBox1.TabIndex = 0;
+            this.NombreTextBox.Location = new System.Drawing.Point(129, 130);
+            this.NombreTextBox.Name = "NombreTextBox";
+            this.NombreTextBox.Size = new System.Drawing.Size(147, 20);
+            this.NombreTextBox.TabIndex = 0;
             // 
-            // textBox2
+            // ClaveTextBox
             // 
-            this.textBox2.Location = new System.Drawing.Point(129, 176);
-            this.textBox2.Name = "textBox2";
-            this.textBox2.Size = new System.Drawing.Size(147, 20);
-            this.textBox2.TabIndex = 1;
+            this.ClaveTextBox.Location = new System.Drawing.Point(129, 176);
+            this.ClaveTextBox.Name = "ClaveTextBox";
+            this.ClaveTextBox.Size = new System.Drawing.Size(147, 20);
+            this.ClaveTextBox.TabIndex = 1;
             // 
             // NombreLabel
             // 
@@ -87,26 +87,26 @@
             this.EliminarButton.Text = "Eliminar";
             this.EliminarButton.UseVisualStyleBackColor = true;
             // 
-            // listView1
+            // AgregarListView
             // 
-            this.listView1.Location = new System.Drawing.Point(46, 229);
-            this.listView1.Name = "listView1";
-            this.listView1.Size = new System.Drawing.Size(414, 125);
-            this.listView1.TabIndex = 6;
-            this.listView1.UseCompatibleStateImageBehavior = false;
+            this.AgregarListView.Location = new System.Drawing.Point(46, 229);
+            this.AgregarListView.Name = "AgregarListView";
+            this.AgregarListView.Size = new System.Drawing.Size(414, 125);
+            this.AgregarListView.TabIndex = 6;
+            this.AgregarListView.UseCompatibleStateImageBehavior = false;
             // 
             // MainForm
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(650, 366);
-            this.Controls.Add(this.listView1);
+            this.Controls.Add(this.AgregarListView);
             this.Controls.Add(this.EliminarButton);
             this.Controls.Add(this.AgregarButton);
             this.Controls.Add(this.ClaveLabel);
             this.Controls.Add(this.NombreLabel);
-            this.Controls.Add(this.textBox2);
-            this.Controls.Add(this.textBox1);
+            this.Controls.Add(this.ClaveTextBox);
+            this.Controls.Add(this.NombreTextBox);
             this.Name = "MainForm";
             this.Text = "Tarea 7";
             this.ResumeLayout(false);
@@ -116,13 +116,13 @@
 
         #endregion
 
-        private System.Windows.Forms.TextBox textBox1;
-        private System.Windows.Forms.TextBox textBox2;
+        private System.Windows.Forms.TextBox NombreTextBox;
+        private System.Windows.Forms.TextBox ClaveTextBox;
         private System.Windows.Forms.Label NombreLabel;
         private System.Windows.Forms.Label ClaveLabel;
         private System.Windows.Forms.Button AgregarButton;
         private System.Windows.Forms.Button EliminarButton;
-        private System.Windows.Forms.ListView listView1;
+        private System.Windows.Forms.ListView AgregarListView;
     }
 }
 
