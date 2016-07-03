@@ -26,9 +26,11 @@ namespace Tarea7.Properties {
         [global::System.Configuration.ApplicationScopedSettingAttribute()]
         [global::System.Diagnostics.DebuggerNonUserCodeAttribute()]
         [global::System.Configuration.SpecialSettingAttribute(global::System.Configuration.SpecialSetting.ConnectionString)]
-        public string Conexion {
+        [global::System.Configuration.DefaultSettingValueAttribute("Data Source=DESKTOP-4ECK98H\\SQLEXPRESS;Initial Catalog=master;Integrated Security" +
+            "=True")]
+        public string masterConnectionString {
             get {
-                return ((string)(this["Conexion"]));
+                return ((string)(this["masterConnectionString"]));
             }
         }
     }

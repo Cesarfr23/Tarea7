@@ -16,5 +16,10 @@ namespace Tarea7
         {
             InitializeComponent();
         }
+
+        private void MainForm_Load(object sender, EventArgs e)
+        {
+            Conexion cenexion = new Conexion();
+        }
     }
 }

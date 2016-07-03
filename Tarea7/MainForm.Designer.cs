@@ -109,6 +109,7 @@
             this.Controls.Add(this.NombreTextBox);
             this.Name = "MainForm";
             this.Text = "Tarea 7";
+            this.Load += new System.EventHandler(this.MainForm_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 
